@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cómo funciona el tiempo en JavaScript</title>
+  </head>
+  <body>
+    <script> 
+//    console.log('a')
+//    setTimeout(() => console.log('b') , 0) // antes del console.log si o si tenemos que ejecutar una funcion, ya que sino, se ejecutaria al instante y lo que nosotros queremos es que tarde el tiempo que se le asigna como segundo parametro, en este caso 2000 milisegundos. Aunque sean 0 segundos, como tenemos puesto que esto tiene que aparecer en tantos segundos, va a ir a la cola de tarea. En ese momento, javascript primero va a ejecutar todo el codigo y despues va a hacer venir lo que este disponible en la cola de tareas.
+//    console.log('c')
+
+    setTimeout(() => console.log('d'), 2000)
+    for (var i = 0; i < 10; i++){
+
+    }
+    </script>
+  </body>
+</html>
